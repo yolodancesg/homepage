@@ -126,7 +126,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      padding: 0 20px;
+      padding: 0 10px;
       color: #fff;
     }
     /* YOLO DANCE 做霓虹闪烁 */
@@ -176,16 +176,21 @@
       margin-bottom: 10px;
     }
     .contact-links a {
-      display: block;
+      display: flex;
       align-items: center;
-      margin: 0 auto;
-      font-size: 18px;
+      justify-content: center;
+      margin: 2px auto;
+      font-size: 16px;
       color: #fa0de7;
+      white-space: nowrap;
+      line-height: 1;
     }
     .contact-links a svg {
-      margin-right: 5px;
-      width: 20px;
-      height: 20px;
+      margin-right: 3px;
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      margin-top: 0px;
     }
     /* 缩小 YOLO DANCE SG. 2025 字体 */
     .contact-links p {
@@ -227,6 +232,9 @@
         height: calc(100vh - 60px);
         margin-top: 60px;
       }
+      .hero .content {
+        padding: 0 5px;
+      }
       .hero .content h2 {
         font-size: 38px;
       }
@@ -244,7 +252,8 @@
         font-size: 18px;
       }
       .contact-links a {
-        font-size: 16px;
+        font-size: 14px;
+        margin: 1px auto;
       }
       .contact-links p {
         font-size: 14px;
@@ -289,7 +298,7 @@
         For Dance, For Passion<br />
         YOU ONLY LIVE ONCE!
       </p>
-      <a href="https://bookwhen.com/yolodancesg" class="book-btn">Book Online →</a>
+      <a href="https://bookwhen.com/yolodancesg" class="book-btn">Book Online</a>
 
       <!-- 联系方式：放置在按钮下方 -->
       <div class="contact-section">
@@ -302,7 +311,7 @@
               viewBox="0 0 576 512"
               width="20"
               height="20"
-              transform="translate(0 6)"
+              transform="translate(0 0)"
             >
               <path
                 fill="currentColor"
@@ -319,7 +328,7 @@
               viewBox="0 0 448 512"
               width="20"
               height="20"
-              transform="translate(0 6)"
+              transform="translate(0 0)"
             >
               <path
                 fill="currentColor"
@@ -335,7 +344,7 @@
               viewBox="0 0 496 512"
               width="20"
               height="20"
-              transform="translate(0 6)"
+              transform="translate(0 0)"
             >
               <path
                 fill="currentColor"
@@ -351,7 +360,7 @@
               viewBox="0 0 448 512"
               width="25"
               height="20"
-              transform="translate(0 6)"
+              transform="translate(0 0)"
             >
               <path
                 fill="currentColor"
